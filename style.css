@@ -1,0 +1,25 @@
+
+
+.ISLslider{
+    width: 1000px;
+    height: 50px;
+    -webkit-appearance: none;
+    background:rgb(225, 225, 226);
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+    margin: auto;
+   
+}
+
+.ISLslider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 50px;
+    border-radius: 5px;
+    background:rgb(186, 184, 197);
+    cursor: pointer;
+    border: 4px solid rgb(160, 157, 157);
+    box-shadow: -700px 0 0 690px #f3a784;
+  }
